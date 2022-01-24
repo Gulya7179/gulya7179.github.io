@@ -1,0 +1,44 @@
+/*Блок обо мне*/
+.about_me_container img{width: 100px;}
+
+/*Блок соц.сети, иконки*/
+.social {
+  display: inline-block;
+}
+.social a {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  color: #000;
+}
+.social a:hover {
+  color: #fff;
+}
+.social svg {
+  margin-top: 7px;
+  width: 32px;
+  height: 32px;
+}
+.github a:hover {
+  color: #191919;
+}
+.instagram a:hover {
+  color: rgba(226, 6, 190, 0.925);
+}
+.messenger a:hover {
+  color: #009bff;
+}
+.telegram a:hover {
+  color: #249bd7;
+}
+.viber a:hover {
+  color: #7b519d;
+}
+.vk a:hover {
+  color: #4a76a8;
+}
+.whatsapp a:hover {
+  color: #50b154;
+}
