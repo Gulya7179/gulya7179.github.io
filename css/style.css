@@ -1,5 +1,75 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Панель навигации*/
+nav {
+  height: 60px;
+  width: 100%;
+  background-color: #344051;
+  position: fixed;
+}
+.navbar-brand {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  line-height: 60px;
+  padding-left: 95px;
+  padding-right: 95px;
+  float: left;
+}
+.nav-item a {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 60px;
+  padding-left: 432px;
+  margin-right: 40px;
+  float: left;
+  text-transform: uppercase;
+
+}
+
+/*блок MAIN*/
+.main{
+  width: 100%;
+  height: calc(100% - 60px);
+  background: url(../img/boy.png) 100% 100%/auto 127% no-repeat ,url(../img/background.jpg) center/cover no-repeat;
+  
+}
+
+/*Заголовки*/
+.title__container{
+  color: #2c384a;
+  margin: 232px 0px 0px 157px;
+  text-align: center;
+  float: left;
+}
+.title__container h1{
+  font-size: 60px;
+  font-weight: bold;
+}
+.title__container h4{
+  margin-top: 40px;
+  font-size: 22px;
+  color: #79818d;
+}
+.title__container input{
+  height: 40px;
+  text-align: center;
+  border: 2px solid #6d7682;
+  background: none;
+  border-radius: 5px;
+  color: #6d7682;
+  font-size: 13px;
+  padding: 0px 16px;
+  margin: 50px 14px 0px 14px;
+}
+
+/*Общие правила для div*/
+
 /*Блок обо мне*/
-.about_me_container img{width: 100px;}
+.about_me_container img {
+  width: 100px;
+}
 
 /*Блок соц.сети, иконки*/
 .social {
@@ -25,7 +95,7 @@
   color: #191919;
 }
 .instagram a:hover {
-  color: rgba(226, 6, 190, 0.925);
+  color: rgba(255, 0, 149, 0.925);
 }
 .messenger a:hover {
   color: #009bff;
