@@ -1,10 +1,11 @@
 /*Общие правила*/
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #000;
 }
 .title_bar {
   width: 50px;
+  margin-top: 5px;
 }
 
 /*Панель НАВИГАЦИИ*/
@@ -80,15 +81,12 @@ nav {
   font-weight: 500;
   color: #384354;
 }
-.title_bar {
-  margin-top: 5px;
-}
-.my_photo {
+.about_me_container .my_photo {
   margin-top: 15px;
   width: 90px;
   border-radius: 60%;
 }
-p {
+.about_me_container p {
   margin: 15px 30%;
   text-align: center;
   text-align: inherit;
@@ -120,13 +118,10 @@ p {
   font-weight: 600;
   color: #384354;
 }
-.title_bar {
-  margin-top: 5px;
-}
-.icons {
+.what_can_I_do .icons {
   display: inline-block;
 }
-.icons img {
+.what_can_I_do .icons img {
   margin-top: 45px;
   width: 30px;
 }
@@ -137,7 +132,7 @@ p {
   font-weight: 900;
   color: #cf7600;
 }
-p {
+.what_can_I_do p {
   margin: 5px 30%;
   text-align: center;
   text-align: inherit;
@@ -156,47 +151,43 @@ p {
   font-weight: 600;
   color: #384354;
 }
-.title_bar {
-  margin-top: 5px;
-}
-p {
+.case p {
   margin: 15px 30%;
   text-align: center;
   text-align: inherit;
   font-size: 10px;
 }
-img {
+.case .example_site {
   margin-top: 15px;
   width: 900px;
   text-align: center;
 }
-.client h3 {
+.case .client h3 {
   text-transform: uppercase;
   margin-top: 20px;
   font-size: 15px;
   font-weight: 620;
 }
-.website h3 {
+.case .website h3 {
   text-transform: uppercase;
   margin-top: 20px;
   font-size: 15px;
   font-weight: 620;
 }
-.name_project{
+.case .name_project {
   display: inline-block;
 }
-.name_project h3 {
+.case .name_project h3 {
   margin-top: 20px;
   font-size: 15px;
   font-weight: 620;
 }
-p {
+.case p {
   margin: 15px 30%;
   text-align: center;
   text-align: inherit;
   font-size: 10px;
 }
-
 
 /*Блок  немного статистики*/
 .some_statistics {
@@ -212,13 +203,10 @@ p {
   font-weight: 600;
   color: #323e4f;
 }
-.title_bar {
-  margin-top: 5px;
-}
-.icons {
+.some_statistics .icons {
   display: inline-block;
 }
-.icons img {
+.some_statistics .icons img {
   margin-top: 45px;
   width: 30px;
 }
@@ -229,7 +217,7 @@ p {
   font-weight: 900;
   color: #323e4f;
 }
-p {
+.some_statistics p {
   margin: 5px 30%;
   text-align: center;
   text-align: inherit;
@@ -237,7 +225,7 @@ p {
 }
 
 /*Блок ОТЗЫВЫ*/
-.reviews{
+.reviews {
   width: 100%;
   text-align: center;
 }
@@ -248,23 +236,17 @@ p {
   font-weight: 500;
   color: #384354;
 }
-.title_bar {
-  margin-top: 5px;
-}
-.photo_client {
+.reviews .photo_client {
   margin-top: 15px;
   width: 90px;
   border-radius: 60%;
 }
-p {
+.reviews p {
   margin: 15px 30%;
   text-align: center;
   text-align: inherit;
   margin-bottom: 30px;
 }
-
-
-
 
 /*Блок соц.сети, иконки*/
 .social {
