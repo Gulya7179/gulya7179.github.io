@@ -78,7 +78,7 @@ nav {
   text-transform: uppercase;
   margin-top: 45px;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   color: #384354;
 }
 .about_me_container .my_photo {
@@ -151,16 +151,19 @@ nav {
   font-weight: 600;
   color: #384354;
 }
-.case p {
-  margin: 15px 30%;
-  text-align: center;
-  text-align: inherit;
-  font-size: 10px;
-}
 .case .example_site {
   margin-top: 15px;
   width: 900px;
   text-align: center;
+}
+.project {
+  width: 900px;
+  margin: 0px auto;
+  text-align: left;
+}
+.client_website {
+  width: 20%;
+  float: left;
 }
 .case .client h3 {
   text-transform: uppercase;
@@ -175,18 +178,77 @@ nav {
   font-weight: 620;
 }
 .case .name_project {
-  display: inline-block;
+  width: 80%;
+  float: left;
 }
 .case .name_project h3 {
   margin-top: 20px;
   font-size: 15px;
   font-weight: 620;
 }
-.case p {
-  margin: 15px 30%;
-  text-align: center;
-  text-align: inherit;
+.case .project p {
+  text-align: left;
   font-size: 10px;
+}
+.case .clear {
+  clear: both;
+}
+.case input {
+  background-color: #63b5ae;
+  padding: 5px 40px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 13px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.case input:hover {
+  background: violet;
+}
+/*Блок РАСЧЕТ СТОИМОСТИ*/
+.cost_calculation {
+  width: 100%;
+  text-align: left;
+}
+.cost_calculation h2 {
+  text-transform: uppercase;
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #323e4f;
+  text-align: center;
+}
+.cost_calculation .form {
+  width: 50%;
+  margin: 20px auto;
+}
+.cost_calculation .form h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.cost_calculation .form select {
+  width: 100%;
+  background-color: #eeeeee;
+  padding: 15px 15px;
+}
+.cost_calculation .cost {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+.cost_calculation .cost img {
+  width: 100%;
+}
+.cost_calculation .payment {
+  width: 50%;
+  margin: 10px auto;
+}
+.cost_calculation .payment h4 {
+  font-size: 15px;
+  font-weight: 400;
 }
 
 /*Блок  немного статистики*/
