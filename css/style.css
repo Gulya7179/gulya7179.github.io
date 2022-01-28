@@ -211,6 +211,7 @@ nav {
 .cost_calculation {
   width: 100%;
   text-align: left;
+  padding: 40px 40px;
 }
 .cost_calculation h2 {
   text-transform: uppercase;
@@ -303,12 +304,85 @@ nav {
   width: 90px;
   border-radius: 60%;
 }
-.reviews p {
+.reviews .review1 p {
   margin: 15px 30%;
   text-align: center;
   text-align: inherit;
   margin-bottom: 30px;
 }
+.reviews .full_name{
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+/*Блок КОНТАКТЫ*/
+.my_contacts{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background: url(../img/background_icons1.jpg) center/cover no-repeat;
+}
+.my_contacts h2 {
+  text-transform: uppercase;
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #384354;
+}
+.my_contacts p{
+  margin: 15px 30%;
+  text-align: center;
+  text-align: inherit;
+  margin-bottom: 30px;
+}
+.my_contacts .icons {
+  display: inline-block;
+}
+.my_contacts .icons img {
+  margin-top: 45px;
+  width: 20px;
+}
+.my_contacts .leave_me_message h3 {
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #323e4f;
+}
+.my_contacts form{
+  width: 40%;
+  margin: auto;
+}
+.my_contacts .test{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.my_contacts .leave_me_message .name, .my_contacts .leave_me_message .email {
+  width: calc(50% - 25px);
+  padding: 5px 10px;
+  margin: 10px;
+  background-color: #eeeeee;
+}
+.my_contacts .message{
+  width: calc(100% - 25px);
+  height: 100px;
+  padding: 5px 10px;
+  background-color: #eeeeee;
+  resize: none;
+}
+.my_contacts .button {
+  height: 30px;
+  text-align: center;
+  border: 2px solid #6d7682;
+  background: none;
+  border-radius: 5px;
+  color: #6d7682;
+  font-size: 13px;
+  padding: 0px 16px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
 
 /*Блок соц.сети, иконки*/
 .social {

@@ -272,13 +272,12 @@
         alt="Здесь должна быть черта заголовка"
       />
       <br /><img class="photo_client" src="img/" alt="Здесь должно быть фото" />
-      <p>
+      <p class="review1">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptas
         voluptates inventore laborum, veritatis illo architecto expedita nemo,
         nobis magni, possimus in.
       </p>
-      <br />
-      <p>ФИО клиента</p>
+      <p class="full_name">ФИО клиента</p>
     </div>
 
     <div class="my_contacts">
@@ -303,11 +302,27 @@
       </div>
       <div class="leave_me_message">
         <h3>Оставьте мне сообщение</h3>
-        <form action=""></form>
-        <input type="text" name="name" placeholder="Имя" />
-        <input type="email" name="email" placeholder="Email" />
-        <input type="text" name="message" placeholder="Сообщение" />
-        <input type="reset" value="Отправить" />
+        <div>
+          <form action="">
+            <div class="test">
+              <input class="name" type="text" name="name" placeholder="Имя" />
+              <input
+                class="email"
+                type="email"
+                name="email"
+                placeholder="Email"
+              />
+            </div>
+            <textarea
+              class="message"
+              type="text"
+              name="message"
+              placeholder="Сообщение"></textarea>
+            <div>
+              <input class="button" type="reset" value="Отправить" />
+            </div>
+          </form>
+        </div>
 
         <svg display="none">
           <symbol id="icon_github" viewBox="0 0 496 512">
